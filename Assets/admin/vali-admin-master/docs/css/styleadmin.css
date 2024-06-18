@@ -1,0 +1,56 @@
+/* administrador */
+
+
+/* color principal pagina doctoreee develop
+
+ fucsia = 
+ background-color: rgb(236, 38, 143);
+ morado de fondo = tenue =#717fe0
+
+
+*/
+
+.headerRegister{
+    background-color: rgb(236, 38, 143);
+    color: #fff;
+
+   
+}
+
+
+.headerUpdate{
+    background-color: rgb(38, 173, 236);
+    color: #fff;
+}
+
+.notBlock {
+    display: none;
+}
+
+.app-sidebar__user-avatar {
+    width: 100px;
+}
+
+.app-sidebar__user-avatarlittle {
+    width: 40px;
+}
+
+
+/* admin encabezado *//* admin encabezado *//* admin encabezado *//* admin encabezado *//* admin encabezado *//* admin encabezado */
+
+.app-header {
+    background-color: rgb(236, 38, 143);
+}
+
+.app-header__logo {
+    background-color: rgb(211, 35, 129);
+}
+
+.app-sidebar {
+    background-color: rgb(44, 44, 44);
+}
+
+.btn-primary{
+    background-color: #717fe0;
+    border-color: #4d60dc;
+}

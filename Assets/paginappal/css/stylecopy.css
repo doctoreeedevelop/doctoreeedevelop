@@ -1,0 +1,475 @@
+/* pagina ppal */
+
+
+/* color principal pagina doctoreee develop
+
+ fucsia = 
+ background-color: rgb(236, 38, 143);
+ morado de fondo = tenue =#717fe0
+
+
+*/
+
+
+.redsocial {
+    /* background-color: #3cfc0d; */
+    position: fixed;
+    z-index: 1400;
+    top: 80px;
+
+}
+
+
+.item-slick1{
+    margin-top: 15px; 
+}
+
+.layer-slick1 {
+    /* background-color: #3cfc0d; */
+    margin-top: -50px;
+}
+
+.hov-btn4:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #4ce135;
+  }
+
+  .bg10 {background-color: #27ed20;}  
+
+
+/* mueve el scroll suave en el efecto de buscar */
+html {
+    scroll-behavior: smooth;
+}
+
+/* .menu-desktop {
+    background-color: yellow;
+} */
+
+.usuario-nav {
+    
+    /* /background-color: red; */
+    text-align: center;
+    width: 30%;
+}
+
+/* .usuario-close {
+    background-color: green;
+    display: none; 
+} */
+
+/* .usuario-nav:hover{
+    background-color: yellow;
+} */
+
+/*barra principal de nav*//*barra principal de nav*//*barra principal de nav*//*barra principal de nav*/
+.fa-user-md {              /* icono de usuario del navbar ppal */
+    font-size: 25px;
+    color: #717fe0;
+}
+
+.fa-user-md:hover{
+    color: black;    
+}
+
+.iruserReg:hover {
+    background-color: rgb(104, 104, 104);
+    padding: 5px; 
+    border-radius: 10px;
+    color: black;    
+}
+
+
+
+/* barra lateral redes sociales inicio*//* barra lateral redes sociales inicio*//* barra lateral redes sociales inicio*/
+.facebook:before{
+    font-family: "FontAwesome";
+    content:"\f09a";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+
+.twitter:before{
+    font-family: "FontAwesome";
+    content:"\f099";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+.instagram:before{
+    font-family: "FontAwesome";
+    content:"\f16d";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+.google:before{
+    font-family: "FontAwesome";
+    content:"\f1a0";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+.wasa:before{
+    font-family: "FontAwesome";
+    content:"\f232";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+.mail:before{
+    font-family: "FontAwesome";
+    content:"\f0e0";
+    margin-right: 10px;
+    font-size:20px; 
+}
+
+.redsocial a { /* ancho de el fondo de icomos distancia vertical enrtre ellos*/
+    height: 45px;
+    margin-left: 5px;
+}
+
+.social ul li a {
+    color: #717fe0;
+}
+
+.social{
+    position: fixed;
+    height: 250px;
+    margin-left: 0;
+    top: 90px;
+    z-index:2000;
+}
+
+.social ul {
+    list-style: none;
+    width: 50px;
+}   
+
+.social ul li a {
+    display: inline-block;
+    /* color:white;
+    background: black; */
+    /* padding: 10px 15px; */
+    text-decoration: none;  
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+} 
+
+/* .social ul li .facebook {background:#3b5998;}
+.social ul li .twitter {background:#00abf0;}
+.social ul li .instagram {background:red;}
+.social ul li .google {background:#fc866c;}
+.social ul li .wasa {background:greenyellow;}
+.social ul li .mail {background:#666666;} */
+
+/* .social ul li a:hover {
+    padding: 10px 30px;    
+    background: black;
+
+} */
+
+.social ul li .facebook:hover {
+    padding: 10px 30px;    
+    background: #3b5998;
+    color: white;
+    content: "Facebook";
+    border-radius: 0 30px 30px 0px;
+      
+
+} 
+
+.social ul li .twitter:hover {
+    padding: 10px 30px;    
+    background: #00abf0;
+    color: white;
+    border-radius: 0 30px 30px 0px;
+} 
+
+.social ul li .instagram:hover {
+    padding: 10px 30px;    
+    background: #b84dff;
+    color: white;
+    border-radius: 0 30px 30px 0px;
+} 
+
+.social ul li .google:hover {
+    padding: 10px 30px;    
+    background: #ff0707;
+    color: white;
+    border-radius: 0 30px 30px 0px;
+} 
+
+.social ul li .wasa:hover {
+    padding: 10px 30px;    
+    background: #3cfc0d;
+    color: white;
+    border-radius: 0 30px 30px 0px;
+} 
+
+.social ul li .mail:hover {
+    padding: 10px 30px;    
+    background: #3f4041;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+
+} 
+/* FIN  barra lateral redes sociales fin ojo finnnnnnnn*//* barra lateral redes sociales fin ojo finnnnnnnn*/
+
+
+
+/* seccion 1 slider principal*//* seccion 1 slider principal*//* seccion 1 slider principal*//* seccion 1 slider principal*/
+
+.slick1-dots li img{
+    width: 40%;
+
+}
+
+/* FIN seccion 1 slider principal*//* FIN seccion 1 slider principal*//* FIN seccion 1 slider principal*//* FIN seccion 1 slider principal*/
+
+
+ /* seccion 3 pagina ppal *//* seccion 3 pagina ppal *//* seccion 3 pagina ppal *//* seccion 3 pagina ppal */
+
+.imgsec3-1 {
+    width: 50px;
+    margin-right: 20px;
+
+}
+
+.card {
+    /* background-color: blue; */
+    box-shadow: 5px 7px 5px 2px rgb(68, 68, 68);
+
+}
+
+
+
+/* FIN seccion 3 pagina ppal *//* FIN seccion 3 pagina ppal *//* FIN seccion 3 pagina ppal */
+
+
+
+
+/*/////////////////////////////////// SECCION EQUIPO DE TRABAJO  ////////////////////////////////////*/
+
+
+
+
+
+.extequipo1 {
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap : 20px;
+    height: 600px;
+    margin-top: 70px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-right: 20px;
+}
+
+
+
+.fotoequipo1 {
+    
+    /* background-color: rgb(255, 127, 127); */
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    /* border-radius: 50%; */
+
+
+}
+
+.imgequi1 {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    
+
+}
+
+.letra {
+    font-size: 20px;
+    
+}
+
+.numero1 {
+
+    /* background-color: rgb(255, 0, 98); */
+    background-image: url("https://doctoreeedevelop.com/Assets/paginappal/images/nueva1.jpg");
+    
+}
+
+
+
+/*/////////////////////////////////// fin ..................... fin SECCION EQUIPO DE TRABAJO.........fin  ////////////////////////////////////*/
+/*/////////////////////////////////// fin ..................... fin SECCION EQUIPO DE TRABAJO.........fin  ////////////////////////////////////*/
+
+
+/*/////////////////////////////////// seccion  nuestros servicios y tipos  ////////////////////////////////////*/
+
+.sectiontipos {
+   /*  background-color: aqua;  */
+    margin-top: 100px; 
+    /* margin-bottom: 200px; */
+    /* padding: 30px; */
+}
+
+.titext {
+    background-color: #313131;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.titservicios {
+    color: white;
+    
+}
+
+.boxext {
+    background-image: url(https://doctoreeedevelop.com/Assets/paginappal/images/fondovolante.jpg);
+    background-size: cover;
+    /* background-color: green;  */
+    /* margin-top: 100px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+
+}
+
+.box {
+    /* background-color: yellow;  */
+    /* padding: 10px; */
+    background-color: #ffffff44;
+    backdrop-filter: blur(3px);
+    color: rgb(26, 26, 26);
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    line-height: 1.6;
+   
+}
+
+.box1 {
+    /* background-color: blueviolet;  */
+    /* background-image: url(C:\xampp\htdocs\doctoreeedevelop\Assets\paginappal\images\fondo4.jpg); */
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.box2 {
+    /* background-color: blue;  */
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.box3 {
+    /* background-color: rgb(81, 255, 0);  */
+    
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.box4 {
+    /* background-color: rgba(65, 146, 129, 0.625);  */
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.box5 {
+    /* background-color: rgb(194, 28, 28);  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+
+.box6 {
+    /* background-color: rgb(176, 164, 24);  */
+
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+}
+
+
+
+
+
+.error {
+
+    /* background-color: rgb(255, 0, 162); */  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+    background-image: url(..//http://localhost/doctoreeedevelop/Assets/paginappal/images/fondo2.png),
+                    url(http://localhost/doctoreeedevelop/Assets/paginappal/images/fondo1.jpg);
+    margin-top: 100px;
+    background-size: cover; 
+    background-attachment: scroll, fixed;
+
+
+} 
+
+
+.error2 {
+    
+    /* background-color: yellow; */  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/fondo2.png)
+                    ;
+    margin-top: 100px;
+    background-size: cover; 
+    background-attachment: scroll, fixed;
+
+
+} 
+/*/////////////////////////////////// fin seccion  nuestros servicios y tipos fin  ////////////////////////////////////*/
+
+
+.vuetareasext {
+    background-color: #868686;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+    width: 100%;
+}
+
+
+.vuetareasint{
+    margin: 50px;
+    background-color: #cfcfcf;
+    padding: 30px;   
+    height: 100%;
+    width: 50%;
+
+} 
+
